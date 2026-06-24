@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "bombananaguide.com"
+        }
+      ],
+      "destination": "https://www.bombananaguide.com/$1",
+      "permanent": true
+    }
+  ]
+}
